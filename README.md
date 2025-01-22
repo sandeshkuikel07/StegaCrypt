@@ -24,7 +24,7 @@ StegaCrypt is a steganography tool that implements various Least Significant Bit
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/StegaCrypt.git
+git clone https://github.com/sandeshkuikel07/StegaCrypt.git
 cd StegaCrypt
 ```
 
