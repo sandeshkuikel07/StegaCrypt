@@ -17,7 +17,6 @@ StegaCrypt is a steganography tool that implements various Least Significant Bit
 
 - C compiler (GCC recommended)
 - BMP image files for testing
-- Make (optional, for building)
 
 ## Installation
 
