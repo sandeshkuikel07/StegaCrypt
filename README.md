@@ -32,22 +32,25 @@ cd StegaCrypt
 
 To use the steganography tool, follow these steps:
 
-1. Compile the program using Make:
-
+1. Compile the program :
+(for e.g)
 ```bash
-make
+./gcc lsb1.c -o lsb1
 ```
 
 2. Run the program with the desired method and parameters:
 
 ```bash
-./stegacrypt <method> <input_image> <output_image> <message>
+./stegacrypt <method> <input_image> <output_image> -- msg
+for e.g -- (./stegacrypt/lsb1  image.bmp encoded.bmp )
+
 ```
 
 3. Extract the message from the stego image:
 
 ```bash
 ./stegacrypt <method> <stego_image> <extracted_message>
+(./stegacrypt lsb1 encoded.bmp ext.txt)
 ```
 
 ## Metrics
